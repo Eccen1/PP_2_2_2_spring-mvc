@@ -24,7 +24,7 @@ public class HelloController {
         return "index";
     }
 
-    CarService cars;
+    private CarService cars;
 
     public HelloController(CarServiceImp cars) {
         this.cars = cars;
